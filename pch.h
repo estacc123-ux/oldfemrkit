@@ -1,0 +1,17 @@
+#pragma once
+#include <jni.h>
+#include <errno.h>
+#include <string.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/resource.h>
+#include <android/log.h>
+#include <string>
+#include <memory>
+#include <functional>
+#include <queue>
+#include <tuple>
+#include <utility>
+#include <cstdarg>
+#include <cstdio>
+#include <xorstr.h>

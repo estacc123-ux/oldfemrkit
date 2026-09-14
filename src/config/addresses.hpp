@@ -1,0 +1,71 @@
+#pragma once
+#include <cstdint>
+namespace config {
+namespace addresses {
+constexpr int rbx_loadmodule = 0x3977c2c;
+constexpr int EnableLoadModule = 0x6517b68;
+constexpr int OnGameLeave = 0x26cabb8;
+constexpr int OnGameBegin = 0x2210e4c;
+constexpr int ScriptContext_OnServiceProvider = 0x21a3e54;
+constexpr int ScriptContextResume = 0x21bd52c;
+constexpr int GetGlobalStateForInstance = 0x29B2110;
+constexpr int Getluastate = 0x21BB7CC;
+constexpr int JobStart = 0x1fdb078;
+constexpr int JobStop = 0x1fdb66c;
+constexpr int step_datamodeljob_WHSJ = 0x2248008;
+constexpr int TaskSchedulerTargetFps = 0x1f20a44;
+constexpr int Print = 0x3a987b0;
+constexpr int LuaC_Step = 0x21ADDA4;
+constexpr int lua_getthreaddata = 0x208ACCC;
+constexpr int lua_newthread = 0x21BA534;
+constexpr int LuaResume = 0x5AC43D0;
+constexpr int lua_settop = 0x21A89BC;
+constexpr int task_spawn = 0x21eeb24;
+constexpr int lua_tolstring = 0x5ABBC74;
+constexpr int lua_pushcclosurek = 0x21A8FA4;
+constexpr int lua_setfield = 0x21A80C0;
+constexpr uintptr_t luaS_newlstr_roblox = 0x021A7B14;
+constexpr int rbx_luau_load = 0x5ada0a4;
+constexpr int lua_compile_source = 0x38FE37C;
+constexpr int LuaLoad = 0x21BBCBC;
+constexpr int roblox_build_string = 0x26AFB38;
+constexpr int roblox_wrap_string = 0x213CD68;
+constexpr int roblox_loadsource = 0x38FE2B4;
+constexpr int roblox_string_free = 0x2857274;
+constexpr int bytecode_check = 0x21BBFA8;
+constexpr int roblox_loadstring = 0x3983C10;
+constexpr int KTable = 0x21be3e0;
+constexpr int HashTableLookup = 0x3860c08;
+constexpr int rbx_throwf = 0x220b7a0;
+constexpr int LockViolationInstanceCrash = 0x385ffe0;
+constexpr int prop_table = 0x21dd294;
+constexpr int TriggerTouchTransmitter = 0x45a668c;
+constexpr int TriggerProximityPrompt = 0x3f2a424;
+constexpr int capability_errorfunc = 0x5AFCC30;
+constexpr uintptr_t luaC_step_roblox = 0x5ac4db8;
+constexpr uintptr_t luaD_throw_roblox = 0x5ac3f44;
+constexpr uintptr_t luaV_gettable_roblox = 0x2b97cc4;
+constexpr uintptr_t luaV_settable_roblox = 0x2b9e19c;
+constexpr uintptr_t luau_execute_roblox = 0x21be3cc;
+constexpr uintptr_t luaO_nilobject_roblox = 0xcd8798;
+constexpr uintptr_t luaH_dummynode_roblox = 0xcd87a8;
+constexpr uintptr_t luaC_barriertable_roblox = 0x21AF114;
+constexpr uintptr_t luaD_rawrunprotected_roblox = 0x21A7514;
+constexpr uintptr_t lua_yield_roblox = 0x21EFB58;
+constexpr uintptr_t lua_pushnil_roblox = 0x021A9BEC;
+constexpr uintptr_t lua_pushnumber_roblox = 0x021A98C8;
+constexpr uintptr_t lua_pushinteger_roblox = 0x021A98C8;
+constexpr uintptr_t lua_pushvalue_roblox = 0x21A7FD8;
+constexpr uintptr_t lua_createtable_roblox = 0x021A8A6C;
+constexpr uintptr_t lua_getfield_roblox = 0x021A8C5C;
+constexpr uintptr_t lua_rawgetfield_roblox = 0x5ABAC1C;
+constexpr uintptr_t lua_gettable_roblox = 0x021A88AC;
+constexpr uintptr_t lua_setmetatable_roblox = 0x021A95C4;
+constexpr uintptr_t lua_settable_roblox = 0x021A8B44;
+constexpr uintptr_t lua_remove_roblox = 0x021A8BCC;
+constexpr uintptr_t lua_settop_roblox = 0x21A89BC;
+constexpr uintptr_t lua_pushcclosurek_roblox = 0x21A8FA4;
+constexpr uintptr_t lua_setfield_roblox = 0x21A80C0;
+constexpr uintptr_t lua_tolstring_roblox = 0x5ABBC74;
+}
+}
